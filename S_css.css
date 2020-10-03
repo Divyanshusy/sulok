@@ -7,7 +7,7 @@ body{
 #top{
     background-color: #b4245d;
     width:100%
-    height:auto;
+    height: auto;
     overflow: hidden;
 }
 #top p{
@@ -98,4 +98,38 @@ nav ul li a:hover{
 }
 .clearfix {
     clear: both;
+}
+
+@media (max-width: 768px) {
+    nav ul {
+        padding-left: 0;
+    }
+    nav ul li {
+        width: 100%;
+        border-left: 0;
+        border-right: 0;
+    }
+    nav ul li a {
+        padding: 8px 0;
+        font-size: 16px;
+    }
+    .left-col {
+        width: 100%;
+        padding: 0;
+    }
+    .sidebar {
+        width: 100%;
+        padding: 0;
+    }
+    .one-third {
+        width: 100%;
+
+        padding: 0;
+    }
+    .social {
+        font-size: 200%;
+    }
+    p {
+        font-size: 15px;
+    }
 }
