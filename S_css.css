@@ -1,3 +1,4 @@
+
 body{
     margin: 0;
     font-family: Comic Sans MS;
@@ -9,6 +10,7 @@ body{
     width:100%
     height: auto;
     overflow: hidden;
+
 }
 #top p{
     padding-left:27px;
@@ -27,10 +29,8 @@ nav ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    padding-left: 14px;
     overflow: hidden;
     background-color: #e72e77;
-    
     top:10;
     width: 100%;
 }
@@ -55,13 +55,13 @@ nav ul li a:hover{
     margin-left: auto;
     margin-right: auto;
 }
+
 #banner{
     position: relative;
     text-align: center;
     color: #ffff ;
     font-size: 40px;
     font-weight: bold;
-
 }
 .center{
     position: absolute;
@@ -70,15 +70,40 @@ nav ul li a:hover{
     transform:translate(-50%,-50%);
     padding: 6px;
 }
+
 .Details{
-    height: 220px;
-    width: 800px;
-    background-color: red;
-    padding: 30px;
-    margin: auto;
-    background-image: linear-gradient(#f4ceda , #f8cdb6);
-    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: 	#FFB6C1;
+    overflow: auto;
+    color: #ffffff;
+    font-family: "Roboto", Roboto;
+    font-size: 54px;
+    line-height: 1.1em;
+    letter-spacing: -1.4px;
 }
+.Details iframe{
+	float: left;
+	padding: 30px;
+
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.button a{
+	text-decoration: none;
+}
+
 .onethird {
     width: 29%;
     float: left;
@@ -99,6 +124,44 @@ nav ul li a:hover{
 .clearfix {
     clear: both;
 }
+.fa {
+  padding: 20px;
+  font-size: 300px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+
+
+
 
 @media (max-width: 768px) {
     nav ul {
@@ -132,4 +195,18 @@ nav ul li a:hover{
     p {
         font-size: 15px;
     }
+}
+
+#comingSoon{
+    height: auto;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-image: linear-gradient(-45deg, #ac32e4, #7918f2, #4801ff);
+    overflow: auto;
+    color: #ffffff;
+    font-family: "Roboto", Roboto;
+    font-size: 54px;
+    line-height: 1.1em;
+    letter-spacing: -1.4px;
 }
